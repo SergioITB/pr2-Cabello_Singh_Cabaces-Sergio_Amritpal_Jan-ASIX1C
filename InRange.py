@@ -15,5 +15,3 @@ if fifth_num in first_list and second_list:
     print("True")
 else:
     print("False")
-
-
