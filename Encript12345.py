@@ -5,7 +5,7 @@ Descripció: Encripta las palabaras o frase por numeros.
 """
 #En primer lugar pedimos al usuaruio que introduzca una palabra o frase
 texto = str(input("Introduzca una palabra o frase "))
-#Esta linia hace un print de la palara introducida por la palabra o frase
+#Esta linia hace un print de la palara introducida por la palabra o frase.
 print(texto)
 #Ahora defino un diccionario con el valor de cada vocal
 listaVocales = {
