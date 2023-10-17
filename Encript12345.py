@@ -4,7 +4,7 @@ Jan Cabaces Batalle
 ASIXc M03 UF1 A2
 Descripció: Encripta las palabaras por numeros.
 """
-texto = input("Introduzca una palabra")
+texto = str(input("Introduzca una palabra"))
 print(texto)
 listaLetras = {
     'a': '1', 'A': '1',
