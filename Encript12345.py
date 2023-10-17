@@ -1,5 +1,4 @@
 """
-Jan Cabaces Batalle
 03/10/2023
 ASIXc M03 UF1 A2
 Descripció: Encripta las palabaras por numeros.
