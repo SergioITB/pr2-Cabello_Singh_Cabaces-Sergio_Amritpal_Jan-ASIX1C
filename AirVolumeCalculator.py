@@ -1,13 +1,13 @@
 """
-Sergio Cabello Simón
 10/10/2023
 ASIXc1C M03 UF1
 Descripción: Calcula el volumen de un aula
 """
-#Variables
+#Variables que usaremos para recoger datos
 largo = 0
 ancho = 0
 alto = 0
+#Funcion para pedir y recoger los datos para el calculo del volumen
 def pedirDatos():
     global largo
     global ancho
