@@ -4,7 +4,7 @@ ASIXc M03 UF1 A2
 Descripció: Encripta las palabaras por numeros.
 """
 #En primer lugar pedimos al usuaruio que introduzca una palabra
-texto = str(input("Introduzca una palabra"))
+texto = str(input("Introduzca una palabra "))
 #Esta linia hace un print de la palara introducida por la palabra
 print(texto)
 #Ahora defino un diccionario con el valor de cada vocal
@@ -17,4 +17,4 @@ listaVocales = {
 #En esta lineas usamos dos funciones pre-definidas: vocal,item y replace. Entonces le indicamos que por cada vocal en la lista coja su valor y lo sustituya.
 for vocal, valor in listaVocales.items():
     texto = texto.replace(vocal, valor)
-
+print(texto)

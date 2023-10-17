@@ -5,11 +5,11 @@ Descripció: Revision edad para trabajar.
 """
 #Control de errores para comporvar si pone un numero entero en el input
 try:
-    edad=int(input("Introduce tu edad:"))
+    edad=int(input("Introduce tu edad: "))
 
 except:
-    print("Introduzca un numero entero")
-    edad = int(input("Introduce tu edad:"))
+    print("Introduzca un numero entero: ")
+    edad = int(input("Introduce tu edad: "))
 #Comprueba segun el numero introducido si puede trabajar o no
 if edad < 16:
     print("Aun no tienes edad para trabajar")
