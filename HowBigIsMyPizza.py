@@ -1,5 +1,4 @@
 """
-Amritpal Singh
 10/10/2023
 How Big is my Pizza
 """
